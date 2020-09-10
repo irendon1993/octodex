@@ -10,3 +10,26 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+header {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+article {
+  padding: auto;
+  margin: auto;
+  width: 500px;
+}
