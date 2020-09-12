@@ -10,9 +10,6 @@ body {
   margin: 0;
   min-height: 100%;
   color: #24292e;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
 }
 
 header {
@@ -25,51 +22,31 @@ header {
   position: sticky;
   top: 0;
   margin-bottom: 40px;
+  border: 1px red solid;
+  font-size: 14px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1600px;
+  width: auto;
+  border: 1px blue solid;
   align-items: center;
 }
 
-main {
-  display: block;
-  box-sizing: border-box;
+ul {
+  display: flex;
+  border: 1px red solid;
+  align-items: center;
 }
 
 li {
   list-style: none;
   display: inline;
-  justify-content: space-between;
-}
-
-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: auto;
-  max-width: 1600px;
-
-  padding-right: 24px;
-  padding-left: 24px;
-
-  margin-right: auto;
-  margin-left: auto;
-
-  box-sizing: border-box;
-}
-
-article {
-  padding-right: 16px;
-  padding-left: 16px;
-
-  width: 25%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-ul {
-  display: flex;
-  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  border: 1px green solid;
 }
 
 a:link {
@@ -81,19 +58,36 @@ a:link :visited {
   text-decoration: none;
 }
 
-nav {
-  color: #24292e;
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 1600px;
-  width: auto;
-  align-items: center;
+
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px blue solid;
 }
 
-header:a:link {
-  color: grey;
-  text-decoration: none;
+article {
+  padding-right: 20px;
+  padding-left: 20px;
+
+  width: 325px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px red solid;
 }
 
 img {
-  border: 1px #e1e4e8 solid;
+  border: 1px red solid;
   border-radius: 9px;
+}
+
+div {
+  display: inline;
+  border: 1px red solid;
 }
