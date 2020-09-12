@@ -33,9 +33,7 @@ nav {
   justify-content: space-between;
   max-width: 1600px;
   width: auto;
-
   text-decoration: none;
-
   align-items: center;
 }
 
@@ -48,19 +46,13 @@ ul {
 li {
   list-style: none;
   display: flex;
-  align-items: center;
-  padding: 4px;
-  text-decoration: none;
+  padding: 6px;
 }
 
 a:link {
   color: #586069;
   text-decoration: none;
   justify-content: space-between;
-}
-
-a:link :visited {
-  text-decoration: none;
 }
 
 section {
@@ -75,9 +67,6 @@ section {
 }
 
 article {
-  padding-right: 20px;
-  padding-left: 20px;
-
   width: 325px;
   display: flex;
   flex-wrap: wrap;
@@ -85,41 +74,25 @@ article {
   box-sizing: border-box;
 }
 
-div {
-  display: inline;
-}
-
 .navDiv {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
   align-items: center;
-  height: auto;
 }
 
 .leftMenu {
   padding-left: 150px;
-  height: auto;
 }
 .rightMenu {
   padding-left: 1000px;
-  height: auto;
 }
 
 .catInfoLi {
   display: flex;
-  justify-content: space-between;
-  color: #24292e;
-
   padding-right: 30px;
 }
 
-.catInfoLi a:link :visited {
-  color: #24292e;
-}
-
-.octocatImg {
+Article Img {
   border: 1px #e1e4e8 solid;
   border-radius: 9px;
 }
@@ -129,11 +102,33 @@ strong {
   margin-right: 200px;
 }
 
-.gitUsericon {
-  margin-left: auto;
-  padding-left: 5px;
-}
-
 .catFooter {
   padding-left: 0px;
+}
+
+footer {
+  padding-top: 50px;
+  padding-left: 100px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.pageFooter {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px#e1e4e8 solid;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #586069;
+}
+
+b {
+  color: #24292e;
+}
+
+span {
+  color: #586069;
 }
