@@ -10,20 +10,22 @@ body {
   margin: 0;
   min-height: 100%;
   color: #24292e;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 16px;
   box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   position: sticky;
   top: 0;
   margin-bottom: 40px;
-  border: 1px red solid;
   font-size: 14px;
+  background-color: transparent;
 }
 
 nav {
@@ -31,25 +33,28 @@ nav {
   justify-content: space-between;
   max-width: 1600px;
   width: auto;
-  border: 1px blue solid;
+
+  text-decoration: none;
+
   align-items: center;
 }
 
 ul {
   display: flex;
-  border: 1px red solid;
   align-items: center;
+  flex-direction: row;
 }
 
 li {
   list-style: none;
-  display: inline;
+  display: flex;
   align-items: center;
   padding: 4px;
-  border: 1px green solid;
+  text-decoration: none;
 }
 
 a:link {
+  color: #586069;
   text-decoration: none;
   justify-content: space-between;
 }
@@ -67,7 +72,6 @@ section {
 
   margin-right: auto;
   margin-left: auto;
-  border: 1px blue solid;
 }
 
 article {
@@ -79,15 +83,57 @@ article {
   flex-wrap: wrap;
   justify-content: center;
   box-sizing: border-box;
-  border: 1px red solid;
-}
-
-img {
-  border: 1px red solid;
-  border-radius: 9px;
 }
 
 div {
   display: inline;
-  border: 1px red solid;
+}
+
+.navDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  height: auto;
+}
+
+.leftMenu {
+  padding-left: 150px;
+  height: auto;
+}
+.rightMenu {
+  padding-left: 1000px;
+  height: auto;
+}
+
+.catInfoLi {
+  display: flex;
+  justify-content: space-between;
+  color: #24292e;
+
+  padding-right: 30px;
+}
+
+.catInfoLi a:link :visited {
+  color: #24292e;
+}
+
+.octocatImg {
+  border: 1px #e1e4e8 solid;
+  border-radius: 9px;
+}
+
+strong {
+  color: #24292e;
+  margin-right: 200px;
+}
+
+.gitUsericon {
+  margin-left: auto;
+  padding-left: 5px;
+}
+
+.catFooter {
+  padding-left: 0px;
 }
